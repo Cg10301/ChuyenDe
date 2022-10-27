@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { Routes, Route,  Navigate } from "react-router-dom";
+import Login from "./login/Login";
 
-function App() {
+import AppRouter from "./Router/AppRouter";
+
+const App = () => {
+  const [logged, setLoggedIn] =useState("false");
+  
+  useEffect(() =>{
+    setLoggedIn(sessionStorage.getItem("accessToken"));
+  }, [logged])
+
+  function signIn(){
+    setLoggedIn("true");
+  }
+
+  function signOut(){
+    setLoggedIn();
+    sessionStorage.removeItem("accessToken");
+    console.log("signOut");
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Routes>
+      <Route
+        path="/admin/*"
+        element={logged ? <AppRouter signOut={signOut}/> : <Navigate to="/" />}
+      />
+      
+      <Route path="/" element={!logged ?<Login signIn={signIn}/> : <Navigate to="/admin/"  />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  );
+};
+export default App;
+
+function NotFound() {
+  return (
+    <div>
+      <h2>404 Not Found</h2>
     </div>
   );
 }
-
-export default App;

@@ -1,0 +1,391 @@
+{
+  "KhoaHoc": [
+    {
+      "TenKhoaHoc": "31",
+      "id": 1
+    },
+    {
+      "TenKhoaHoc": "32",
+      "id": 2
+    },
+    {
+      "TenKhoaHoc": "33",
+      "id": 3
+    },
+    {
+      "TenKhoaHoc": "34",
+      "id": 4
+    },
+    {
+      "TenKhoaHoc": "35",
+      "id": 5
+    },
+    {
+      "TenKhoaHoc": "30",
+      "id": 6
+    }
+  ],
+  "MonHoc": [
+    {
+      "MaMonHoc": "GZ101",
+      "TenMonHoc": "Tiếng Trung 1",
+      "SoTinChi": 2,
+      "DieuKienTienQuyet": "",
+      "SoGio": "54",
+      "HeSo": 1.5,
+      "id": 1
+    },
+    {
+      "MaMonHoc": "CS100",
+      "TenMonHoc": "Tin đại cương",
+      "SoTinChi": 2,
+      "DieuKienTienQuyet": "",
+      "SoGio": "18LT+24TH",
+      "HeSo": 1.5,
+      "id": 2
+    },
+    {
+      "MaMonHoc": "CS102",
+      "TenMonHoc": "Công dân số",
+      "SoTinChi": 2,
+      "DieuKienTienQuyet": "",
+      "SoGio": "30",
+      "HeSo": 1.5,
+      "id": 3
+    },
+    {
+      "MaMonHoc": "CS110",
+      "TenMonHoc": "Kỹ thuật số",
+      "SoTinChi": 2,
+      "DieuKienTienQuyet": "MA101",
+      "SoGio": "18LT+24BT",
+      "HeSo": 1.5,
+      "id": 4
+    },
+    {
+      "MaMonHoc": "MA110",
+      "TenMonHoc": "Giải tích 1",
+      "SoTinChi": 3,
+      "DieuKienTienQuyet": "MA101",
+      "SoGio": 27,
+      "HeSo": 1.5,
+      "id": 5
+    },
+    {
+      "MaMonHoc": "MA101",
+      "TenMonHoc": "Logic, suy luận toán học và kỹ thuật đếm",
+      "SoTinChi": 3,
+      "DieuKienTienQuyet": "",
+      "SoGio": "27LT+36BT",
+      "HeSo": "1.3",
+      "id": 6
+    },
+    {
+      "MaMonHoc": "ML111",
+      "TenMonHoc": "Triết học Mác - Lênin",
+      "SoTinChi": 2,
+      "DieuKienTienQuyet": "",
+      "SoGio": 30,
+      "HeSo": 1,
+      "id": 7
+    },
+    {
+      "MaMonHoc": "ML112",
+      "TenMonHoc": "Kinh tế chính trị và CNXH khoa học",
+      "SoTinChi": 3,
+      "DieuKienTienQuyet": "ML111",
+      "SoGio": 45,
+      "HeSo": 1,
+      "id": 8
+    }
+  ],
+  "KhoiKienThuc": [
+    {
+      "TenKhoiKienThuc": "Giáo dục đại cương",
+      "id": 1
+    },
+    {
+      "TenKhoiKienThuc": "Các học phần thuộc cơ sở khối ngành",
+      "id": 2
+    },
+    {
+      "TenKhoiKienThuc": "Các học phần bắt buộc của ngành",
+      "id": 3
+    },
+    {
+      "TenKhoiKienThuc": "Các học phần lựa chọn của ngành",
+      "id": 4
+    },
+    {
+      "TenKhoiKienThuc": "Thực tập, Khóa luận tốt nghiệp (KLTN) và Chuyên đề tốt nghiệp (CĐTN)",
+      "id": 5
+    },
+    {
+      "TenKhoiKienThuc": "Lựa chọn tự do",
+      "id": 6
+    }
+  ],
+  "Khoa": [
+    {
+      "MaKhoa": "1",
+      "TenKhoa": "Toán - Tin học",
+      "id": 1
+    },
+    {
+      "MaKhoa": "2",
+      "TenKhoa": "Ngoại ngữ",
+      "id": 3
+    },
+    {
+      "MaKhoa": "3",
+      "TenKhoa": "Du lịch",
+      "id": 4
+    },
+    {
+      "MaKhoa": "4",
+      "TenKhoa": "Kinh Tế - Quản lý",
+      "id": 6
+    },
+    {
+      "MaKhoa": "5",
+      "TenKhoa": "Khoa học sức khỏe",
+      "id": 7
+    }
+  ],
+  "Nganh": [
+    {
+      "MaNganh": "TT",
+      "TenNganh": "Công nghệ thông tin",
+      "idKhoa": 1,
+      "id": 1
+    },
+    {
+      "MaNganh": "TI",
+      "TenNganh": "Hệ thống thông tin",
+      "idKhoa": 1,
+      "id": 2
+    },
+    {
+      "MaNganh": "NA",
+      "TenNganh": "Ngôn ngữ Anh",
+      "idKhoa": 3,
+      "id": 3
+    },
+    {
+      "MaNganh": "NJ",
+      "TenNganh": "Ngôn ngữ Nhật",
+      "idKhoa": 3,
+      "id": 4
+    },
+    {
+      "MaNganh": "QT",
+      "TenNganh": "QT kinh doanh",
+      "idKhoa": 6,
+      "id": 5
+    },
+    {
+      "MaNganh": "NC",
+      "TenNganh": "Ngôn ngữ Trung",
+      "idKhoa": 3,
+      "id": 6
+    },
+    {
+      "MaNganh": "QTKS",
+      "TenNganh": "Quản trị dịch vụ du lịch - lữ hành",
+      "idKhoa": 4,
+      "id": 11
+    },
+    {
+      "MaNganh": "KT",
+      "TenNganh": "Kế toán",
+      "idKhoa": 6,
+      "id": 12
+    },
+    {
+      "MaNganh": "TCNH",
+      "TenNganh": "Tài chính - Ngân hàng",
+      "idKhoa": 6,
+      "id": 13
+    },
+    {
+      "MaNganh": "DD",
+      "TenNganh": "Điều dưỡng",
+      "idKhoa": 7,
+      "id": 14
+    },
+    {
+      "MaNganh": "MT",
+      "TenNganh": "Mạng máy tính và truyền thông dữ liệu",
+      "idKhoa": 1,
+      "id": 15
+    }
+  ],
+  "CTDT": [
+    {
+      "MaCTDT": "TT32",
+      "TenCTDT": "Công nghệ thông tin khóa 32",
+      "idNganh": 1,
+      "idKhoaHoc": 2,
+      "id": 1
+    },
+    {
+      "MaCTDT": "TI32",
+      "TenCTDT": "Hệ thống thông tin khóa 32",
+      "idNganh": 2,
+      "idKhoaHoc": 2,
+      "id": 2
+    },
+    {
+      "MaCTDT": "GE33",
+      "TenCTDT": "Ngôn ngữ Anh khóa 33",
+      "idNganh": 3,
+      "idKhoaHoc": 3,
+      "id": 3
+    },
+    {
+      "MaCTDT": "TT33",
+      "TenCTDT": "Công nghệ thông tin khóa 33",
+      "idNganh": 1,
+      "idKhoaHoc": 3,
+      "id": 4
+    },
+    {
+      "MaCTDT": "TT34",
+      "TenCTDT": "Công nghệ thông tin khóa 34",
+      "idNganh": 1,
+      "idKhoaHoc": 4,
+      "id": 5
+    },
+    {
+      "MaCTDT": "TT35",
+      "TenCTDT": "Công nghệ thông tin khóa 35",
+      "idNganh": 1,
+      "idKhoaHoc": 5,
+      "id": 6
+    },
+    {
+      "MaCTDT": "TI33",
+      "TenCTDT": "Hệ thống thông tin khóa 33",
+      "idNganh": 2,
+      "idKhoaHoc": 3,
+      "id": 7
+    },
+    {
+      "MaCTDT": "TE35",
+      "TenCTDT": "Hệ thống thông tin khóa 35",
+      "idNganh": 2,
+      "idKhoaHoc": 5,
+      "id": 8
+    }
+  ],
+  "NoiDung": [
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 2,
+      "idMonHoc": 4,
+      "id": "6d77a2e9-117a-4222-bb5e-52d84d17a392"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 1,
+      "idMonHoc": 1,
+      "id": "YFauURU"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 1,
+      "idMonHoc": 2,
+      "id": "NOq4mrm"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 3,
+      "idMonHoc": 3,
+      "id": "k-7IuJh"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 2,
+      "idMonHoc": 6,
+      "id": "YZWUoqD"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 2,
+      "idMonHoc": 6,
+      "id": "C0VS-0f"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 3,
+      "idMonHoc": 4,
+      "id": "KlwlMff"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 3,
+      "idMonHoc": 5,
+      "id": "-giESCm"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 1,
+      "idMonHoc": 2,
+      "id": "xEx3iPQ"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 1,
+      "idMonHoc": 8,
+      "id": "x-Vm1Hj"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 1,
+      "idMonHoc": 1,
+      "id": "DWdQ2p9"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 1,
+      "idMonHoc": 7,
+      "id": "jyCAkzW"
+    },
+    {
+      "idCTDT": 1,
+      "idKhoiKT": 4,
+      "idMonHoc": 5,
+      "id": "B6RU6TF"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 1,
+      "idMonHoc": 8,
+      "id": "y7F0b3O"
+    },
+    {
+      "idCTDT": 4,
+      "idKhoiKT": 1,
+      "idMonHoc": 7,
+      "id": "1TBq-76"
+    },
+    {
+      "idCTDT": 8,
+      "idKhoiKT": 1,
+      "idMonHoc": 6,
+      "id": "bB9erTu"
+    },
+    {
+      "idCTDT": 8,
+      "idKhoiKT": 1,
+      "idMonHoc": 8,
+      "id": "rayINRR"
+    },
+    {
+      "idCTDT": 8,
+      "idKhoiKT": 1,
+      "idMonHoc": 2,
+      "id": "8QRijwJ"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+.header {
+    height: 80px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    padding-right: 50px;
+}
+
+.Sider{
+    height: 100vh;
+    position: fixed;
+    overflow: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-color: white;
+   
+}
+.Sider::-webkit-scrollbar {
+    display: none;
+  }
+
+.menu-area {
+    padding-top: 90px;
+    height: 90%;
+}
+
+
+
+.logo-area .logo {
+    position: fixed;
+    left: 0;
+    height: 70px;
+    z-index: 99;
+    
+    background-color: white;
+}
+
+.btn-logout{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.ant-form{
+    padding-right: 45px;
+}

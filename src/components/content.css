@@ -1,0 +1,116 @@
+.content-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+  flex-direction: row;
+}
+
+.btn-add {
+  border-radius: 5px;
+}
+
+.search-container {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.form-input {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.form-input-center {
+  align-items: center;
+  justify-content: center;
+}
+.form-input-leftstart {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 10px;
+  padding-left: 50px;
+}
+
+.form-input input {
+  width: 60%;
+}
+
+.form-input button {
+  width: 20%;
+}
+
+.form-input .small-input {
+  width: 30%;
+}
+
+/* Khung CTDT */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap'); */
+
+.wrapper {
+  width: 826px;
+  height: auto;
+  background-color: white;
+  /* font-family: 'Raleway', sans-serif; */
+}
+
+.wrapper-header {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding-bottom: 30px;
+}
+
+.title {
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.bigsize-text {
+  font-size: 20px;
+}
+
+.wrapper-content {
+    padding: 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.toplist {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.list {
+    width: 100%;
+}
+
+.content-list{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.monhoc{
+    display: flex;
+    justify-content: space-between;
+    /* font-size: 10px; */
+}
